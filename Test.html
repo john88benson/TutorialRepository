@@ -2,9 +2,13 @@
 <head>
     <title>Javascript Test</title>
     <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 	<body>
-		<div>
+		<div id="box">
+            <h1>Name:</h1> 
+            <input type="text" id="nameBox"/>
+            <input type="submit" value="Click me" onclick="mySecondNewFunction(document.getElementById('nameBox').value);" />
 			<ul>
 				<li>bricks</li>
 				<li> mortar</li>
