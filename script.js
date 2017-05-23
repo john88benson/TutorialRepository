@@ -11,6 +11,7 @@ function mySecondNewFunction(name){
 	}
 	else{
 		message = name + "'s World, Party Time! Excellent!";
+		document.getElementById("daBox").className = "box2";
 	}
 	alert (message)
 }
