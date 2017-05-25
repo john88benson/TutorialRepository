@@ -1,5 +1,17 @@
 //alert('Hello World, from script.js')
 
+$(document).ready(
+    function () {
+    //start up code
+    alert("jquery works!");
+	$('ul').fadeOut().fadeIn();
+	$('#header').html("<h2>Jquery Change!</h2>");
+	$('.head').append("<h1>Enter Name:</h1>");
+
+}
+);
+
+
 function myNewFunction(){
 	alert("How do you do?");
 }

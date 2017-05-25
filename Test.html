@@ -1,12 +1,14 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Javascript Test</title>
+    <title>Javascript Test</title>    
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 	<body>
 		<div id="daBox" class="box">
-            <h1>Name:</h1> 
+            <h1 id="header" class="head">Name:</h1> 
             <input type="text" id="nameBox"/>
             <input type="submit" value="Click me" onclick="mySecondNewFunction(document.getElementById('nameBox').value);" />
 			<ul>
